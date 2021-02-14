@@ -44,18 +44,6 @@ public class Application {
                 studentFactory.createStudent(),
         });
 
-//        Group group3 = new Group("AKTCI-20-3",new Student[]{
-//                studentFactory.createStudent(),
-//                studentFactory.createStudent(),
-//                studentFactory.createStudent(),
-//                studentFactory.createStudent(),
-//                studentFactory.createStudent(),
-//                studentFactory.createStudent(),
-//        });
-//        System.out.println(group1+"\n");
-//        System.out.println(group2+"\n");
-//        System.out.println(group3+"\n");
-
 
         Cathedra cathedra = new Cathedra("Компьютерные технологии",
                 new Teacher[]{teacherFactory.createTeacher()},
